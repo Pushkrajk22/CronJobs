@@ -1,0 +1,31 @@
+name: Scheduled API Call
+
+on:
+  schedule:
+    - cron: '*/5 * * * *' # This runs the job at the top of every hour; adjust the cron expression as needed
+  workflow_dispatch: # allows you to manually trigger the workflow
+
+jobs:
+  call-api-and-log:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Call API and append result to log file
+        run: |
+          API_URL="https://api.restful-api.dev/objects/1"
+          DATE_TIME=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+          RESPONSE=$(curl -s "$API_URL")
+          echo "{\"datetime\":\"$DATE_TIME\", \"response\":$RESPONSE}" >> api_log.json
+
+      - name: Commit and push log file
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add api_log.json
+          git commit -m "Log API response at $DATE_TIME" || echo "No changes to commit"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
