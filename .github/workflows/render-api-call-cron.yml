@@ -15,7 +15,7 @@ jobs:
 
       - name: Call API and append result to log file
         run: |
-          API_URL="https://api.restful-api.dev/objects/1"
+          API_URL="https://vinimailoginmicroservice.onrender.com/api/loginService/checkToken?token=wsdf"
           DATE_TIME=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
           RESPONSE=$(curl -s "$API_URL")
           echo "{\"datetime\":\"$DATE_TIME\", \"response\":$RESPONSE}" >> api_log.json
