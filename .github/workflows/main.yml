@@ -1,4 +1,4 @@
-name: Scheduled API Call
+name: Test API Call
 
 on:
   schedule:
