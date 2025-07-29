@@ -86,3 +86,4 @@
 {"datetime":"2025-07-29T14:02:17Z", "response":{"id":"1","name":"Google Pixel 6 Pro","data":{"color":"Cloudy White","capacity":"128 GB"}}}
 {"datetime":"2025-07-29T14:11:15Z", "response":{"isValid":false,"detail":"Invalid token"}}
 {"datetime":"2025-07-29T14:35:39Z", "response":{"id":"1","name":"Google Pixel 6 Pro","data":{"color":"Cloudy White","capacity":"128 GB"}}}
+{"datetime":"2025-07-29T14:44:17Z", "response":{"isValid":false,"detail":"Invalid token"}}
