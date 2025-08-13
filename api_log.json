@@ -470,3 +470,10 @@
 {"datetime":"2025-08-12T23:40:37Z", "response":{"isValid":false,"detail":"Invalid token"}}
 {"datetime":"2025-08-12T23:51:06Z", "response":{"isValid":false,"detail":"Invalid token"}}
 {"datetime":"2025-08-13T00:54:12Z", "response":{"isValid":false,"detail":"Invalid token"}}
+{"datetime":"2025-08-13T02:47:21Z", "response":<html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>}
