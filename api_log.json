@@ -2398,3 +2398,4 @@
 {"datetime":"2025-09-08T11:26:39Z", "response":}
 {"datetime":"2025-09-08T11:38:56Z", "response":}
 {"datetime":"2025-09-08T11:49:39Z", "response":}
+{"datetime":"2025-09-08T12:00:30Z", "response":{"isValid":false,"detail":"Invalid token"}}
