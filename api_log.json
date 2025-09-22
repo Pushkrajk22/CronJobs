@@ -3495,3 +3495,4 @@
 {"datetime":"2025-09-22T09:25:15Z", "response":}
 {"datetime":"2025-09-22T09:42:57Z", "response":}
 {"datetime":"2025-09-22T09:53:17Z", "response":}
+{"datetime":"2025-09-22T10:16:58Z", "response":{"isValid":false,"detail":"Invalid token"}}
