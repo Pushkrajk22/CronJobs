@@ -1,4 +1,4 @@
-name: Scheduled API Call
+name: Scheduled API Call for Menucard on render
 
 on:
   schedule:
