@@ -1256,3 +1256,4 @@
 {"datetime":"2025-10-22T08:15:30Z", "response":}
 {"datetime":"2025-10-22T08:44:49Z", "response":}
 {"datetime":"2025-10-22T08:59:25Z", "response":}
+{"datetime":"2025-10-22T09:46:30Z", "response":{"isValid":false,"detail":"Invalid token"}}
