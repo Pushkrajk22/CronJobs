@@ -1325,3 +1325,14 @@
 {"datetime":"2025-10-23T09:28:26Z", "response":{"isValid":false,"detail":"Invalid token"}}
 {"datetime":"2025-10-23T09:43:51Z", "response":{"isValid":false,"detail":"Invalid token"}}
 {"datetime":"2025-10-23T09:54:09Z", "response":{"isValid":false,"detail":"Invalid token"}}
+{"datetime":"2025-10-23T10:18:53Z", "response":<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Service Suspended</title>
+</head>
+<body>
+This service has been suspended.
+</body>
+</html>}
