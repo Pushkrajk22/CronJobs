@@ -17167,3 +17167,14 @@ This service has been suspended.
 {"datetime":"2025-12-25T05:55:03Z", "response":{"isValid":false,"detail":"Invalid token"}}
 {"datetime":"2025-12-25T06:33:45Z", "response":{"isValid":false,"detail":"Invalid token"}}
 {"datetime":"2025-12-25T06:58:15Z", "response":{"isValid":false,"detail":"Invalid token"}}
+{"datetime":"2025-12-25T07:28:58Z", "response":<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Service Suspended</title>
+</head>
+<body>
+This service has been suspended.
+</body>
+</html>}
