@@ -29809,3 +29809,4 @@ This service has been suspended.
 {"datetime":"2026-01-12T11:42:43Z", "response":{"isValid":false,"detail":"Invalid token. Please try again"}}
 {"datetime":"2026-01-12T11:51:53Z", "response":{"isValid":false,"detail":"Invalid token. Please try again"}}
 {"datetime":"2026-01-12T11:59:30Z", "response":{"isValid":false,"detail":"Invalid token. Please try again"}}
+{"datetime":"2026-01-12T12:58:05Z", "response":error code: 500}
