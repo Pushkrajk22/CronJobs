@@ -30715,3 +30715,14 @@ This service has been suspended.
 {"datetime":"2026-01-28T11:25:44Z", "response":{"isValid":false,"detail":"Invalid token. Please try again"}}
 {"datetime":"2026-01-28T11:42:59Z", "response":{"isValid":false,"detail":"Invalid token. Please try again"}}
 {"datetime":"2026-01-28T11:54:15Z", "response":{"isValid":false,"detail":"Invalid token. Please try again"}}
+{"datetime":"2026-01-28T12:29:22Z", "response":<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Service Suspended</title>
+</head>
+<body>
+This service has been suspended.
+</body>
+</html>}
